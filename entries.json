@@ -1,0 +1,152 @@
+{
+  "nextEntryId": 27,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Game",
+      "type": "scene"
+    },
+    {
+      "id": "2",
+      "name": "Levels",
+      "type": null,
+      "children": [
+        {
+          "id": "11",
+          "name": "Level",
+          "type": "script"
+        },
+        {
+          "id": "16",
+          "name": "flyingStar",
+          "type": "sprite"
+        },
+        {
+          "id": "17",
+          "name": "flyingStar Prefab",
+          "type": "scene"
+        },
+        {
+          "id": "12",
+          "name": "Background",
+          "type": "tileSet"
+        },
+        {
+          "id": "14",
+          "name": "Main Theme",
+          "type": "sound"
+        },
+        {
+          "id": "13",
+          "name": "Level_One",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Main",
+      "type": null,
+      "children": [
+        {
+          "id": "9",
+          "name": "Music",
+          "type": "script"
+        },
+        {
+          "id": "7",
+          "name": "Main",
+          "type": "script"
+        },
+        {
+          "id": "8",
+          "name": "Tools",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Player",
+      "type": null,
+      "children": [
+        {
+          "id": "10",
+          "name": "Player",
+          "type": "script"
+        },
+        {
+          "id": "19",
+          "name": "Explosion",
+          "type": "sound"
+        },
+        {
+          "id": "20",
+          "name": "Killed",
+          "type": "sprite"
+        },
+        {
+          "id": "21",
+          "name": "PlayerSprite",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Enemy",
+      "type": null,
+      "children": [
+        {
+          "id": "6",
+          "name": "Enemy",
+          "type": "script"
+        },
+        {
+          "id": "22",
+          "name": "EnemySprite",
+          "type": "sprite"
+        },
+        {
+          "id": "23",
+          "name": "EnemyPrefab",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "GameOver",
+      "type": null,
+      "children": [
+        {
+          "id": "1",
+          "name": "GameOver",
+          "type": "scene"
+        },
+        {
+          "id": "24",
+          "name": "GameOver_behavior",
+          "type": "script"
+        },
+        {
+          "id": "15",
+          "name": "GameOver Theme",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Fonts",
+      "type": null,
+      "children": [
+        {
+          "id": "18",
+          "name": "Main_font",
+          "type": "font"
+        }
+      ]
+    }
+  ]
+}

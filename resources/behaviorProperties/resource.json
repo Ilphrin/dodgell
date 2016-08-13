@@ -1,0 +1,58 @@
+{
+  "behaviors": {
+    "EnemyBehavior": {
+      "scriptId": "6",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "points",
+          "type": "number"
+        },
+        {
+          "name": "frame",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "PlayerBehavior": {
+      "scriptId": "10",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "alive",
+          "type": "boolean"
+        },
+        {
+          "name": "maxX",
+          "type": "number"
+        },
+        {
+          "name": "maxY",
+          "type": "number"
+        }
+      ]
+    },
+    "LevelBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameOverBehavior": {
+      "scriptId": "24",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
