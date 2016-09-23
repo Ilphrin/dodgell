@@ -1,9 +1,9 @@
 class PlayerBehavior extends Sup.Behavior {
   speed = 0.1;
   alive: boolean = true;
-  maxX = 5;
+  maxX = 6;
   maxY = 4;
-  
+
   awake() {
     let velocity = this.actor.arcadeBody2D.getVelocity();
     velocity.y = 0;

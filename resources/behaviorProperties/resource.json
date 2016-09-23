@@ -46,13 +46,78 @@
       "scriptId": "11",
       "line": 0,
       "parentBehavior": null,
-      "properties": []
+      "properties": [
+        {
+          "name": "modifierCooldown",
+          "type": "number"
+        },
+        {
+          "name": "modifierTime",
+          "type": "number"
+        }
+      ]
     },
     "GameOverBehavior": {
       "scriptId": "24",
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "MainMenuBehavior": {
+      "scriptId": "41",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "currentButton",
+          "type": "number"
+        },
+        {
+          "name": "baseColor",
+          "type": "any"
+        }
+      ]
+    },
+    "CreditsBehavior": {
+      "scriptId": "44",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ModifiersBehavior": {
+      "scriptId": "46",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "duration",
+          "type": "number"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "sprite",
+          "type": "string"
+        },
+        {
+          "name": "init",
+          "type": "boolean"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "time",
+          "type": "number"
+        },
+        {
+          "name": "yPos",
+          "type": "number"
+        }
+      ]
     }
   }
 }

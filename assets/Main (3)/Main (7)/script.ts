@@ -1,6 +1,7 @@
 class GameGlobal {
   x = 1;
   enemyCount = 0;
+  multiplier = 1;
   history;
   music: Dodgell.Music;
   
@@ -8,9 +9,8 @@ class GameGlobal {
     this.music = new Dodgell.Music();
   }
 
-  initLevel = () => {
+  initLevel = (high) => {
     // Load stuff like HighScore from the computer
-    let high = Sup.getActor("HighScore");
     this.history = Sup.Storage.getJSON("history");
     if (this.history != undefined) {
       Sup.log("Found a HighScore on this Computer");
@@ -34,7 +34,6 @@ class GameGlobal {
   }
 
   endLevel = () => {
-    Sup.loadScene("GameOver/GameOver");
 
     // Let save the potentially new HighScore =D
     let save;
@@ -50,12 +49,18 @@ class GameGlobal {
     }
     Sup.Storage.setJSON("history", save);
   }
-  
+
   addScore = (points) => {
     if (isPlayerDead == false) {
-      score += points;
+      score += points * this.multiplier;
     }
   }
+}
+
+module Colors {
+  export var white = new Sup.Color(1, 1, 1);
+  export var black = new Sup.Color(0, 0, 0);
+  
 }
 
 var isPlayerDead: boolean = false;

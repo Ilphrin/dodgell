@@ -105,7 +105,7 @@
           "config": {
             "formatVersion": 2,
             "fontAssetId": "18",
-            "text": "It happens, it's ok ;)\n\nRestart with  SPACE !",
+            "text": "It happens, it's ok ;)\n\nRestart with  SPACE !\n\nOr go back with ESCAPE",
             "alignment": "center",
             "verticalAlignment": "center",
             "size": 36,

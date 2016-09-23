@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 27,
+  "nextEntryId": 53,
   "nodes": [
     {
       "id": "0",
@@ -128,11 +128,6 @@
           "id": "24",
           "name": "GameOver_behavior",
           "type": "script"
-        },
-        {
-          "id": "15",
-          "name": "GameOver Theme",
-          "type": "sound"
         }
       ]
     },
@@ -145,8 +140,113 @@
           "id": "18",
           "name": "Main_font",
           "type": "font"
+        },
+        {
+          "id": "52",
+          "name": "Font",
+          "type": "font"
         }
       ]
+    },
+    {
+      "id": "27",
+      "name": "Menus",
+      "type": null,
+      "children": [
+        {
+          "id": "32",
+          "name": "Back",
+          "type": "sprite"
+        },
+        {
+          "id": "37",
+          "name": "AllPrefab",
+          "type": "scene"
+        },
+        {
+          "id": "38",
+          "name": "SpaceBackground",
+          "type": "sprite"
+        },
+        {
+          "id": "43",
+          "name": "Credits",
+          "type": null,
+          "children": [
+            {
+              "id": "36",
+              "name": "Credits",
+              "type": "scene"
+            },
+            {
+              "id": "44",
+              "name": "CreditsBehavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "40",
+          "name": "Main",
+          "type": null,
+          "children": [
+            {
+              "id": "35",
+              "name": "Main",
+              "type": "scene"
+            },
+            {
+              "id": "39",
+              "name": "MainLabels",
+              "type": "sprite"
+            },
+            {
+              "id": "41",
+              "name": "MainMenu",
+              "type": "script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Modifiers",
+      "type": null,
+      "children": [
+        {
+          "id": "51",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "46",
+          "name": "Modifiers",
+          "type": "script"
+        },
+        {
+          "id": "48",
+          "name": "Sprites",
+          "type": null,
+          "children": [
+            {
+              "id": "47",
+              "name": "Multiplier",
+              "type": "sprite"
+            },
+            {
+              "id": "50",
+              "name": "Divider",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "ambianceTheme",
+      "type": "sound"
     }
   ]
 }
