@@ -41,7 +41,7 @@
             "text": "Programming:\n\n- Kevin Pellet  lphrin@autistici.org",
             "alignment": "left",
             "verticalAlignment": "center",
-            "size": 30,
+            "size": 40,
             "color": null,
             "overrideOpacity": false,
             "opacity": null
@@ -82,7 +82,7 @@
             "text": "Sounds/Music\n\n- Main theme:  Fiore d'Inchiostro - Mattia Vlad Morleo\n- Levels Theme: Obsidian Shell -  NightShadow",
             "alignment": "left",
             "verticalAlignment": "center",
-            "size": 30,
+            "size": 40,
             "color": null,
             "overrideOpacity": false,
             "opacity": null
@@ -120,10 +120,10 @@
           "config": {
             "formatVersion": 2,
             "fontAssetId": "52",
-            "text": "Sprites:\n\nMillionthVector (https://millionthvector.blogspot.fr/)\n\nRawdanitsu (http://opengameart.org/content/starfields)",
+            "text": "Sprites:\n\nMillionthVector (https://millionthvector.blogspot.fr/)\nRawdanitsu (http://opengameart.org/content/starfields)",
             "alignment": "right",
             "verticalAlignment": "center",
-            "size": 30,
+            "size": 40,
             "color": null,
             "overrideOpacity": false,
             "opacity": null
@@ -164,8 +164,8 @@
             "text": "Escape to go back",
             "alignment": "center",
             "verticalAlignment": "center",
-            "size": 54,
-            "color": null,
+            "size": 80,
+            "color": "9dfcff",
             "overrideOpacity": false,
             "opacity": null
           },

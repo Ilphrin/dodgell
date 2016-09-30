@@ -2,6 +2,8 @@ class GameOverBehavior extends Sup.Behavior {
   awake() {
     Game.music.addMusic("ambianceTheme");
     Game.endLevel();
+    
+    Sup.getActor("Score").textRenderer.setText("Your score: " + score);
   }
 
   update() {

@@ -31,7 +31,7 @@ class LevelBehavior extends Sup.Behavior {
     // We add stars in the background here
     for (let star of this.flyingStars) {
       let position = star.getPosition();
-      if (position.y < -4) {
+      if (position.y < -5) {
         var index = this.flyingStars.indexOf(star, 0);
         if (index > -1) {
           this.flyingStars.splice(index, 1);

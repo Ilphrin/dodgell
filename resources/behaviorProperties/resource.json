@@ -106,6 +106,10 @@
           "type": "boolean"
         },
         {
+          "name": "used",
+          "type": "boolean"
+        },
+        {
           "name": "speed",
           "type": "number"
         },

@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 53,
+  "nextEntryId": 55,
   "nodes": [
     {
       "id": "0",
@@ -218,6 +218,11 @@
           "id": "51",
           "name": "Scene",
           "type": "scene"
+        },
+        {
+          "id": "54",
+          "name": "Up",
+          "type": "sound"
         },
         {
           "id": "46",

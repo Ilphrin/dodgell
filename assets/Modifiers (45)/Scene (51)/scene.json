@@ -77,7 +77,7 @@
         {
           "type": "ArcadeBody2D",
           "config": {
-            "formatVersion": 1,
+            "formatVersion": 2,
             "type": "box",
             "movable": true,
             "width": 1,
@@ -88,7 +88,11 @@
             },
             "tileMapAssetId": null,
             "tileSetPropertyName": null,
-            "layersIndex": null
+            "layersIndex": null,
+            "bounce": {
+              "x": 0,
+              "y": 0
+            }
           },
           "id": "2"
         }

@@ -4,7 +4,7 @@ class GameGlobal {
   multiplier = 1;
   history;
   music: Dodgell.Music;
-  
+
   constructor() {
     this.music = new Dodgell.Music();
   }
@@ -34,7 +34,6 @@ class GameGlobal {
   }
 
   endLevel = () => {
-
     // Let save the potentially new HighScore =D
     let save;
     if (this.history == undefined || this.history["best"] < score) {

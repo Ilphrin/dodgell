@@ -5,7 +5,7 @@ module Dodgell {
   }
 
   export class Music {
-    musicLevel = 1.0;
+    musicLevel = 0.5;
     fadeOut: boolean = false;
     current: Audio[] = [];
     fadeInterval: number = 0;
@@ -26,7 +26,6 @@ module Dodgell {
     }
 
     playNextMusic = () => {
-      this.musicLevel = 1.0;
       if (this.current.length == 0) {
         Sup.log("No more music to play");
       }
@@ -61,6 +60,7 @@ module Dodgell {
       else if (this.current.length == 0) {
         this.addMusic(pathOrAsset);
       }
+      // else we are willing to play the exact same music as before so we do nothing
     }
   }
 }

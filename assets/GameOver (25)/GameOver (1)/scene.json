@@ -55,11 +55,11 @@
           "type": "TextRenderer",
           "config": {
             "formatVersion": 2,
-            "fontAssetId": "18",
+            "fontAssetId": "52",
             "text": "GAME OVER",
             "alignment": "center",
             "verticalAlignment": "center",
-            "size": null,
+            "size": 90,
             "color": null,
             "overrideOpacity": false,
             "opacity": null
@@ -104,11 +104,11 @@
           "type": "TextRenderer",
           "config": {
             "formatVersion": 2,
-            "fontAssetId": "18",
-            "text": "It happens, it's ok ;)\n\nRestart with  SPACE !\n\nOr go back with ESCAPE",
+            "fontAssetId": "52",
+            "text": "It happens, it's ok ;)\nRestart with SPACE !\nOr go back with ESCAPE",
             "alignment": "center",
             "verticalAlignment": "center",
-            "size": 36,
+            "size": 50,
             "color": null,
             "overrideOpacity": false,
             "opacity": null
@@ -118,7 +118,48 @@
       ],
       "position": {
         "x": 0,
-        "y": -1,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "3",
+      "name": "Score",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "52",
+            "text": "Your score: ",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": "b7ffcb",
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 4,
+        "y": -2,
         "z": 0
       },
       "orientation": {
