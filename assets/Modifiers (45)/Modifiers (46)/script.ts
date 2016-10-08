@@ -79,7 +79,7 @@ var allModifiers = [
   }},
   {"Name": "Point Divider", "Sprite": "Modifiers/Sprites/Divider", "Duration": 5000, "YPos": 4, "Effect": (target) => {
     target.multiplier = 0.2;
-  }, "ENdEffect": (target) => {
+  }, "EndEffect": (target) => {
     target.multiplier = 1;
   }},
 ]
